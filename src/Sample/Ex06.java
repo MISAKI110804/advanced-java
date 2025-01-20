@@ -1,4 +1,4 @@
-package Sample;
+package sample;
 
 public class Ex06 {
 public static void main(String[] args) {
@@ -7,7 +7,7 @@ public static void main(String[] args) {
  human.setBirthplace("埼玉県");
  human.setName("高荷");
   
- System.out.println(human.getAge()+human.getBirthplace()+human.getName());
+ System.out.println(human);
 
 }
 }

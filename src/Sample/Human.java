@@ -1,13 +1,15 @@
-package Sample;
+package sample;
 
 public class Human {
   private String name;
   private int age;
   private String birthplace;
 
+
+
   @Override
   public String toString() {
-    return super.toString();
+    return "Human [name=" + name + ", age=" + age + ", birthplace=" + birthplace + "]";
   }
 
   public String getName() {
